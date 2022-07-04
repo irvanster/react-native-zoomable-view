@@ -811,7 +811,7 @@ class ReactNativeZoomableView extends Component<ReactNativeZoomableViewProps, Re
 
   render() {
     return (
-      <View style={styles.container} {...this.gestureHandlers.panHandlers} onLayout={this._getBoxDimensions}>
+      <View style={styles.container} {...this.gestureHandlers.panHandlers}>
         <View
           style={[
             styles.wrapper,
